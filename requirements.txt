@@ -1,0 +1,15 @@
+
+mlflow
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+hyperopt
+xgboost
+tabulate
+
+#monitor
+plotly
+streamlit
+requests
