@@ -15,25 +15,6 @@ This repository demonstrates the usage of **MLflow** to manage the complete ML l
 - Pandas
 - MLflow
 
-## 🚀 How to Run
-
-1. Clone the repo:
-```bash
-git clone https://github.com/Suhakh/T2D_Mlflow.git
-
-2. install requirements:
-```bash
-run  pip install -r requirements.txt
-
-3. Start MLflow Tracking Server:
-```bash
-run mlflow ui
-
-4. Run the Training Script:
-```bash
-run python main.py
-'''
-
 ## The script will:
 - Train baseline models
 - Run hyperparameter optimization for each
@@ -46,4 +27,22 @@ run python main.py
         Parameter tracking
         Metrics (accuracy, precision, recall, F1 score)
         Model artifacts
+  
+## 🚀 How to Run
+```bash
+1. Clone the repo:
+git clone https://github.com/Suhakh/T2D_Mlflow.git
+cd T2D_Mlflow
+
+2. install requirements:
+run  pip install -r requirements.txt
+
+3. Start MLflow Tracking Server:
+run mlflow ui
+
+4. Run the Training Script:
+run python main.py
+
+
+
 
