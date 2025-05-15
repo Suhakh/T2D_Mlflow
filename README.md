@@ -1,4 +1,4 @@
-# MLflow ML Lifecycle Demo
+# MLflow ML Lifecycle 
 
 The project builds and compares multiple classification models to predict Type 2 Diabetes
 using MLflow for experiment tracking and model management, and Hyperopt for hyperparameter tuning.
