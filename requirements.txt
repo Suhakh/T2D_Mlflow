@@ -11,5 +11,4 @@ tabulate
 
 #monitor
 plotly
-streamlit
 requests
