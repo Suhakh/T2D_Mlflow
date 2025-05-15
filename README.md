@@ -22,21 +22,25 @@ This repository demonstrates the usage of **MLflow** to manage the complete ML l
 git clone https://github.com/Suhakh/T2D_Mlflow.git
 
 2. install requirements:
+```bash
 run  pip install -r requirements.txt
 
 3. Start MLflow Tracking Server:
+```bash
 run mlflow ui
 
 4. Run the Training Script:
+```bash
 run python main.py
+'''
 
-##The script will:
+## The script will:
 - Train baseline models
 - Run hyperparameter optimization for each
 - Log metrics and parameters to MLflow
 - Register and promote the best model to production in the MLflow model registry
 
-##Mlflow tracking:
+## Mlflow tracking:
 - Visit http://127.0.0.1:5000 in your browser to explore:
         Run comparisons
         Parameter tracking
